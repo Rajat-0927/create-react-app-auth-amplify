@@ -11,11 +11,14 @@ class App extends Component {
         return ( <
             div className = "App" >
 
+
             <
             AmplifySignOut / >
 
+
             <
             header className = "App-header" >
+
 
             <
             img src = { logo }
@@ -23,20 +26,22 @@ class App extends Component {
             alt = "logo" / >
 
 
+
             <
             p >
-            Hello from Rajat
+            Hello from Rajat Rushiya
+
 
 
             <
-            /p>  <
+            /p>   <
             a className = "App-link"
             href = "https://reactjs.org"
             target = "_blank"
             rel = "noopener noreferrer" >
             Learn React <
-            /a>  <
-            /header>  <
+            /a>   <
+            /header >  <
             /div>
         );
     }
